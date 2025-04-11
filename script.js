@@ -7,9 +7,9 @@ let pontos = 0;
 
 function alertaDeComida(pontos) {
   if (pontos % 50 === 0) {
-    alert("Ele esta comendo demais, calmaaaa !!");
+    alert("O Japa esta comendo demais, calmaaaa !!");
     if (pontos === 500 || pontos === 1000) {
-      alert("ta quase explodindo");
+      alert("Pachamama ta quase explodindo");
     }
   }
 }
@@ -19,16 +19,16 @@ newElement.className = "p2";
 function filhoDaDiv(pontos) {
   if (pontos >= 500) {
     divPontuacao.appendChild(newElement);
-    newElement.textContent = "Eu comi tudo isso de comida agora eu vou virar um monstro";
+    newElement.textContent = "Eu comi tudo isso de comida agora eu vou virar um Pachamama";
   }
   if (pontos >= 1000) {
-    newElement.textContent = "AAAAAAH EU VOU EXPLODIR, meu nome e Joao the esmeraldaa";
+    newElement.textContent = "AAAAAAH EU VOU EXPLODIR, meu nome e Pachamamaa";
   }
 }
 
 hamburguer.addEventListener("click", () => {
   if (pontos >= 0) {
-    pontos = pontos + 10;
+    pontos = pontos + 24;
     score.textContent = pontos;
     alertaDeComida(pontos);
     filhoDaDiv(pontos);
@@ -37,7 +37,7 @@ hamburguer.addEventListener("click", () => {
 
 pizza.addEventListener("click", () => {
   if (pontos >= 0) {
-    pontos = pontos + 20;
+    pontos = pontos + 24;
     score.textContent = pontos;
     alertaDeComida(pontos);
     filhoDaDiv(pontos);
@@ -46,7 +46,7 @@ pizza.addEventListener("click", () => {
 
 sushiDePaulo.addEventListener("click", () => {
   if (pontos >= 0) {
-    pontos = pontos + 30;
+    pontos = pontos + 69;
     score.textContent = pontos;
     alertaDeComida(pontos);
     filhoDaDiv(pontos);
